@@ -1,0 +1,245 @@
+/**
+ * this is a mini profile web application which is all about Md Mamunur Rahman 
+ * @Author Md Mamunur Rahman@Version 0.0.1 
+ * @since 25-May-2016
+ */
+
+/* custom css goes here */
+body {
+    padding-top: 50px;
+    overflow: hidden;
+   background-color:    white;
+}
+.logo {
+    float: left;
+    height: 80%;
+    opacity: 0.99;
+    filter: alpha(opacity=99);
+}
+.logo:hover {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+ 
+}
+.allabout{
+ font-size: 35px;  
+   text-shadow:  3px 3px black;
+}
+
+.list-group-item
+{
+  background-image:-webkit-linear-gradient(top,#009999 0,black 100%);
+  color: black;
+}
+
+.list-group-item:hover 
+{
+  background-image:-webkit-linear-gradient(top,#229999 0,black 100%);
+
+}
+
+
+.list-group-item-success
+{
+    
+    background-image:-webkit-linear-gradient(top,#ff3c3c 0,#222 100%);
+
+}
+
+
+.list-group-item-success:hover 
+{ 
+    
+    background-image:-webkit-linear-gradient(top,#ff4c3c 0,#ff5c3c  100%);
+
+  
+}
+
+
+.list-group  > a:hover
+{
+    color: cyan;
+    text-shadow: 2px 2px black;
+}
+
+.list-group  > a:active
+{
+    color: black;
+    text-shadow: 2px 2px #ff4c3c;
+}
+.collapse >a
+{
+    
+    color: white;
+}
+.collapse  > a:hover
+{
+    color: white;
+     font-weight: bold;
+     
+}
+.collapse  > a:active
+{
+    color: white;
+     text-shadow: 1px 1px black;
+}
+
+.page-header
+{
+    margin-top: 0px;
+    
+}
+   .textAlign
+   {
+       margin-left: 20px;
+       padding-top: 0px;
+   }
+.makefixed{
+    
+    margin-left: 15px;
+}
+
+.col-xs-7
+{
+    float: left;
+}
+
+#detailbody{
+   margin-top: 52px;
+    padding-left: 1px;
+
+    
+}
+
+#detailbody1{
+    
+   margin-top: 52px;
+   
+    
+}
+
+
+
+
+#wrapper {
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    display: inline-block;
+
+}
+#main-wrapper {
+    height: 100%;
+    overflow-y: auto;
+    padding: 50px 0 0px 0;
+}
+#main {
+    position: relative;
+    height: 100%;
+    overflow-y: auto;
+    padding: 0 15px;
+}
+#sidebar-wrapper {
+    height: 100%;
+    padding: 50px 0 0px 0;
+    position: fixed;
+    border-right: 1px solid gray;
+    background-color: #009999;
+    background-image:-webkit-linear-gradient(top,black 0,#009999 100%);
+
+}
+#sidebar {
+    position: relative;
+    height: 100%;
+    overflow:hidden;
+
+}
+#sidebar .list-group-item {
+        border-radius: 0;
+        border-left: 0;
+        border-right: 0;
+        border-top: 0;
+
+}
+
+label #inp{       
+    
+    display: inline-block;
+
+    vertical-align: auto;
+    float:left;
+    }
+
+
+/**
+*Code for smaller screen
+*/
+@media screen and (max-width: 768px) {
+    h1{
+        font-size:16px;
+    }
+    p{
+        font-size:12px;
+       
+    }
+ #MainMenu, #footer
+   {
+       visibility: hidden;
+       position: absolute;
+        z-index: 12;
+        top: 0;
+        left: 0;
+   }
+   
+   /*heading and content*/
+   .textAlign
+   {
+       margin-left: 20px;
+       padding-top: 0px;
+   }
+   
+  /*navebar-brand or Application heading*/
+.allabout{
+ font-size: 20px;  
+   text-shadow:  3px 3px black;
+}
+    
+}
+
+
+
+
+
+@media (max-width: 992px) {
+    body {
+        padding-top: 0px;
+    }
+}
+@media (min-width: 992px) {
+    #main-wrapper {
+        float:right;
+    }
+}
+@media (max-width: 992px) {
+    #main-wrapper {
+        padding-top: 0px;
+    }
+}
+@media (max-width: 992px) {
+    #sidebar-wrapper {
+        position: static;
+        height:auto;
+        max-height: 300px;
+  		border-right:0;
+	}
+}
+
+.footer {
+    background-color:#ffffff;
+	bottom:0;
+  	position:fixed;
+    padding:10px;
+}
