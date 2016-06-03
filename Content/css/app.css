@@ -121,6 +121,26 @@ body {
      padding-left: 30px;
 	 
 }
+.photobook1 {
+	margin-left: 10px;
+	float: left;
+	width: 98%;
+	height:100%;
+	padding-top:0px;
+    background-color: rgb(150, 153, 204);
+    font-family: Tahoma;
+    background: -webkit-gradient(linear, right top, left top, color-stop(0%,#229999), color-stop(100%, cadetblue));
+    background: linear-gradient(to left,  #229999,   cadetblue);
+    border-radius: 20px;
+    overflow: hidden;
+ 	opacity: 0.*7;
+    filter: alpha(opacity=70);
+    
+    color: black;
+    /* text-shadow: 1px 1px  #ccffff;*/
+     padding-left: 30px;
+	 
+}
 .containerDecoration
 {
     margin-left: 2px;
@@ -144,7 +164,12 @@ body {
     
 }
 
-
+.carousel-inner
+{
+    
+    border-style: solid;
+    border-color:   crimson  brown;
+}
 .col-xs-7
 {
     float: left;
@@ -215,7 +240,8 @@ label #inp{
         font-size:12px;
        
     }
- #MainMenu, #footer
+
+ #MainMenu, #footer #sidebar-wrapper
    {
        visibility: hidden;
        position: absolute;
