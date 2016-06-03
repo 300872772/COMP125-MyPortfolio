@@ -5,7 +5,7 @@
 -->
 <!-- This is a contatc html file which includes all contacts of Md Mamunur Rahman -->
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -121,65 +121,63 @@
         <div id="main-wrapper" class="col-md-10 pull-right">
             <div id="main">
 
-                <div class="page-header">
 
+                <div class="page-header">
                     <h2 class="text-muted"><span id="contactHeading"  ></span></h2>
+
                 </div>
 
-                <p id="contactPara"  > </p>
-
-
-                <form class="form-horizontal" role="form" method="post" action="biography.html">
-                    <div class="form-group">
-                        <label for="name" class="col-sm-2 control-label">Name</label>
-                        <div class="col-sm-8">
-                            <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="sex" class="col-sm-2 control-label">Sex</label>
-                        <div class="col-sm-8"data-type="horizontal">
-                           <fieldset data-role="controlgroup" data-type="horizontal">
-                            <label>Male<input id="inp" class="form-control" type="radio" name="gender" value="male" checked> </label>
-                            <label>Female<input id="inp" class="form-control" type="radio" name="gender" value="female"></label>
-                            <label>Others<input id="inp" class="form-control" type="radio" name="gender" value="other"> </label>
-                           </fieldset>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="address" class="col-sm-2 control-label">Address</label>
-                        <div class="col-sm-8">
-                         <br><textarea name="address" class="form-control" rows="5" cols="30"> </textarea>
-                        </div>
-                    </div>
 
 
 
-                    <div class="form-group">
-                        <label for="email" class="col-sm-2 control-label">Email</label>
-                        <div class="col-sm-8">
-                            <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+
+
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-md-offset-0 col-md-3">
+                            <div>
+                                <h4>MY CONTACT DETAIL</h4>
+                                <p id="contactPara"> </p>
+                            </div>
+
+                        </div>
+                        <div class="col-md-offset-1 col-md-6">
+                            <h4>CONTACT ME SENDING MESSAGE BY BELOW FORM</h4>
+                            <div class='containerDecoration'>
+                                <form id="contactForm" action="" role="form">
+
+                                    <div class="form-group">
+                                        <label for="firstName">First Name</label>
+                                        <input type="text" class="form-control" id="firstName" placeholder="Enter First Name" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="lastName">Last Name</label>
+                                        <input type="text" class="form-control" id="lastName" placeholder="Enter Last Name" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Email</label>
+                                        <input type="email" class="form-control" id="email" placeholder="Enter Email" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="contactNumber">Contact Number</label>
+                                        <input type="tel" class="form-control" id="contactNumber" placeholder="Enter Contact Number" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="message">Your Message</label>
+                                        <textarea cols="3" rows="3" class="form-control" id="message" placeholder="Enter Your Message here..." required></textarea>
+                                    </div>
+
+                                    <div class="text-right">
+                                        <a id="cancelButton" href="index.html" class="btn btn-warning">Cancel</a>
+                                        <a id="sendButton" href="#" class="btn btn-primary">Send</a>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
-                    <div class="form-group">
-                        <label for="message" class="col-sm-2 control-label">Message</label>
-                        <div class="col-sm-8">
-                            <textarea class="form-control" rows="4" name="message"></textarea>
-                        </div>
-                    </div>
-                    
-                    <div class="form-group">
-                        <div class="col-sm-8 col-sm-offset-2">
-                            <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="col-sm-8 col-sm-offset-2">
-                            <! Will be used to display an alert to the user>
-                        </div>
-                    </div>
-                </form>
+                </div>
+
 
 
 
@@ -192,12 +190,12 @@
                 <div id="footer">
                     <nav class="navbar navbar-inverse navbar-fixed-bottom">
                         <ul class="nav navbar-nav navbar-left">
-                            <li><a href="https://www.facebook.com/md.mamunur.rahman"><i class="fa fa-facebook fa-lg"></i> My Facebook</a></li>
+                            <li><a href="https://www.facebook.com/md.mamunur.rahman" target="_blank"><i class="fa fa-facebook fa-lg"></i> My Facebook</a></li>
                             <li>
-                                <a href="https://www.linkedin.com/in/md-mamunur-rahman-31a6375?trk=nav_responsive_tab_profile_pic"><i class="fa fa-linkedin fa-lg"></i> My Linkedin</a>
+                                <a href="https://www.linkedin.com/in/md-mamunur-rahman-31a6375?trk=nav_responsive_tab_profile_pic" target="_blank"><i class="fa fa-linkedin fa-lg"></i> My Linkedin</a>
                             </li>
-                            <li><a href="https://www.flickr.com/photos/122827071@N02/"><i class="fa fa-flickr fa-lg"></i> My Flickr</a></li>
-                            <li><a href="http://www.pixoto.com/mamun_131"><i class="fa fa-pinterest-square fa-lg"></i> My Pixoto</a></li>
+                            <li><a href="https://www.flickr.com/photos/122827071@N02/" target="_blank"><i class="fa fa-flickr fa-lg"></i> My Flickr</a></li>
+                            <li><a href="http://www.pixoto.com/mamun_131" target="_blank"><i class="fa fa-pinterest-square fa-lg"></i> My Pixoto</a></li>
 
                         </ul>
                     </nav>
