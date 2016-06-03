@@ -1,7 +1,8 @@
 /**
  * this is a mini profile web application which is all about Md Mamunur Rahman 
- * @Author Md Mamunur Rahman@Version 0.0.1 
- * @since 25-May-2016
+ * @Author Md Mamunur Rahman
+ * @Version 0.0.2 
+ * @Last Update 03-june-2016
  */
 
 /* custom css goes here */
@@ -116,7 +117,7 @@ body {
     filter: alpha(opacity=70);
     
     color: black;
-     text-shadow: 1px 1px cyan;
+     text-shadow: 1px 1px  #ccffff;
      padding-left: 30px;
 	 
 }
